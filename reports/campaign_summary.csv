@@ -1,0 +1,16 @@
+campaign_id,campaign_name,channel,budget,impressions,clicks,conversions,revenue,ctr_percent,cpc_gbp,cpa_gbp,roas,roi_percent
+101,Search_Brand_Alpha,Paid Search,45000.0,850000,42000,8076,908550.0,4.94,1.07,5.57,20.19,1919.0
+102,Search_Generic_Beta,Paid Search,55000.0,1100000,49000,9651,1085737.5,4.45,1.12,5.7,19.74,1874.07
+103,Search_Competitor_Gamma,Paid Search,20000.0,400000,15000,2811,316237.5,3.75,1.33,7.11,15.81,1481.19
+201,FB_Prospecting_Q1,Social Media,35000.0,1200000,22000,3131,352237.5,1.83,1.59,11.18,10.06,906.39
+202,IG_Stories_Spring,Social Media,30000.0,950000,28000,4134,465075.0,2.95,1.07,7.26,15.5,1450.25
+203,FB_Retargeting_Loyalty,Social Media,20000.0,350000,14000,2488,279900.0,4.0,1.43,8.04,13.99,1299.5
+301,Email_Newsletter_Weekly,Email,8000.0,150000,18000,4661,524362.5,12.0,0.44,1.72,65.55,6454.53
+302,Email_Cart_Recovery,Email,7000.0,90000,15000,4250,478125.0,16.67,0.47,1.65,68.3,6730.36
+303,Email_Welcome_Flow,Email,10000.0,120000,19000,5561,625612.5,15.83,0.53,1.8,62.56,6156.12
+401,Affiliate_Network_Core,Affiliate,20000.0,300000,12000,2365,266062.5,4.0,1.67,8.46,13.3,1230.31
+402,Affiliate_Partner_Influencers,Affiliate,10000.0,180000,8000,1276,143550.0,4.44,1.25,7.84,14.36,1335.5
+403,Referral_Invite_Friend,Referral,15000.0,140000,9000,1669,187762.5,6.43,1.67,8.99,12.52,1151.75
+501,Display_GDN_Prospecting,Display Ads,15000.0,1800000,9000,1817,204412.5,0.5,1.67,8.26,13.63,1262.75
+502,Display_Remarketing_Dynamic,Display Ads,10000.0,600000,6000,1164,130950.0,1.0,1.67,8.59,13.1,1209.5
+601,SEO_Content_Optimization,Organic Search,40000.0,2500000,110000,10671,1200487.5,4.4,0.36,3.75,30.01,2901.22
