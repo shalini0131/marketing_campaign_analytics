@@ -11,26 +11,35 @@ This project implements a Python ETL pipeline, a MySQL data warehouse (Star Sche
 ```mermaid
 graph TD
     subgraph "Raw Data Sources (UCI Repository)"
-        A[online_shoppers_intention.csv]
+        A["online_shoppers_intention.csv"]
     end
 
     subgraph "Data Engineering Pipeline (etl.py)"
-        A --> B[Pandas Cleaning & Null Handling]
-        B --> C[Traffic Type to Channel Mapping]
-        C --> D[Derived Columns: Engagement & Segment]
+        A --> B["Pandas Cleaning & Null Handling"]
+        B --> C["Traffic Type to Channel Mapping"]
+        C --> D["Derived Columns: Engagement & Segment"]
     end
 
     subgraph "MySQL Data Warehouse (marketing_analytics)"
-        D --> E[(sessions)]
-        D --> F[(campaigns)]
-        D --> G[(touchpoints)]
+        D --> E["sessions"]
+        D --> F["campaigns"]
+        D --> G["touchpoints"]
     end
 
     subgraph "Analytical Layer"
-        E & F & G --> H[A/B Hypothesis Testing (SciPy)]
-        E & F & G --> I[Multi-Touch Attribution Modeling]
-        E & F & G --> J[Power BI Star-Schema Model]
-        J --> K[14 Custom DAX Measures]
+        E --> H["A/B Hypothesis Testing (SciPy)"]
+        F --> H
+        G --> H
+
+        E --> I["Multi-Touch Attribution Modeling"]
+        F --> I
+        G --> I
+
+        E --> J["Power BI Star-Schema Model"]
+        F --> J
+        G --> J
+
+        J --> K["14 Custom DAX Measures"]
     end
 ```
 
