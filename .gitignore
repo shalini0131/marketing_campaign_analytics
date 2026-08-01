@@ -1,0 +1,34 @@
+# Generated data files
+data/*.csv
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+env/
+
+# IDE configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Power BI temp
+*.tmp
+*.bak
+
+# Scratch/internal files
+scratch/
